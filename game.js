@@ -66,7 +66,7 @@ $(".btn").click(function(){
     checkAnswer(userClickedPattern.length-1);
 });
 function playSound(name){
-    var audioSource="sounds/"+name+".mp3";
+    var audioSource=name+".mp3";
     var audio = new Audio(audioSource);
 audio.play();
 
